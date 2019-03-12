@@ -33,7 +33,6 @@
 @property(nonatomic, readonly) MKMapRect circlebounds;
 @property(nonatomic, readonly) int MINDIS;
 @property(nonatomic, readonly) int MAXDIS;
-@property(nonatomic) CGFloat alpha;
 @property(nonatomic) CGFloat border;
 
 -(id)initWithCircle:(MKCircle *) circle withRadius:(CGFloat)radius withMin:(int) min withMax:(int) max;
